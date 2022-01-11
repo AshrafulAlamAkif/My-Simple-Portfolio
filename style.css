@@ -1,0 +1,89 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.name-heighlite{
+    color: coral;
+    text-shadow: 2px 5px 8px salmon, 0 0 20px orangered;
+    animation: alam 3s infinite;
+}
+@keyframes alam{
+    40% {box-shadow: 15px 15px 25px red;} 
+}
+.dot{
+    color: green;
+    font-weight: 700;
+}
+section{
+    height: 500px;
+    margin-bottom: 100px;
+}
+section:hover{
+    height: 510px;
+    box-shadow: 0px 5px 20px black;
+}
+.half{
+    width: 40%;
+    float: left;
+    padding-left: 4%;
+    margin-left: 5%;
+    text-align: justify;
+}
+.first-img{
+    height: 500px;
+}
+.first-img:hover{
+    height: 510px;
+}
+.tops{
+    background-image: url(background/top-banner.png);
+    background-repeat: no-repeat;
+}
+.click-button{
+    text-decoration: none;
+    border-radius: 5px;
+    /*border: 1px solid red;*/
+    padding: 8px 35px;
+    font-weight: 700;
+    background-image: linear-gradient(50deg, orange ,salmon, coral,red);
+    color: white;
+}
+.click-button:hover{
+    color:yellow;
+    background-image: linear-gradient(45deg, palevioletred, red);
+    box-shadow: 5px 8px 10px palevioletred;
+}
+/*
+.tops2{
+    background-image: url(background/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}*/
+.Experience{
+    background-image: url(background/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+.tomato-heighlite{
+    color: tomato;
+}
+.box{
+     
+    border-radius: 10px;
+    width: 35%;
+    height: 285px;
+    margin-left: 7%;
+    box-shadow: 5px 8px 20px red;
+    text-align: unset;
+}
+.box:hover{
+    font-size: 20px;
+    color:lightslategray;
+    background-color:lightpink;
+    box-shadow: 5px 8px 20px tomato;
+    text-align: unset;
+}
+footer{
+    text-align: center;
+}
